@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Buenos Aires</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark z-1">
+            <div class="container-fluid ">
+              <div>
+                <img src="img/CaC.png" alt="logo codo a codo">
+                <a class="navbar-brand " href="#">Conf Bs As</a>
+              </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse text-center justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#cards">Los oradores</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">El lugar y la fecha</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Conviértete en orador</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link  text-success linkTickets" href="#">Comprar tickets</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+      <section id="banner"">
+        <div class=" banner ">
+          <div class="banner overflow-hidden bg-black" style="width:100%; height:88vh; ">
+            
+            <img class="card-img-top carrusel h-100 opacity-50" src="/img/ba1.jpg" alt=""  >
+
+            <div class="p-5 col-xs-12  col-sm-11 col-md-8 col-lg-6 position-absolute bottom-0 end-0  text-end">
+              <h5 class=" fs-2 text-white fw-bold text-end">Conf Bs As</h5>
+              <p class="text-light">
+                Bs llega por primera vez a Argentina, un evento para compartir con nuestra comunidad el conocimiento y la experiencia de los expertos que están creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!
+              </p>
+              <button type="button" class="btn btn-outline-light mx-2 text-hover-black btn-orador">Quiero ser orador</button>
+              <button type="button" class="btn btn-success text-white mx-2">Comprar tickets</button>
+            </div>
+            
+              
+          </div>
+      </div>
+      </section>
+
+      <section class="titulo">
+        <div class="d-flex flex-column align-items-center my-4">
+          <h5>CONOCE A LOS</h5>
+          <H2>ORADORES</H2>
+        </div>
+      </section>
+      <section id="cards">
+        <div class="container justify-content-center">
+          <div class=" row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100 d-block">
+                
+                  <img src="img/steve.jpg" alt="" class="card-img-top w-100  object-cover">
+                
+                <div class="card-body ">
+                  <a class="badge bg-warning text-black">JavaScript</a>
+                  <a class="badge bg-info">React</a>
+                  <h5 class="card-title">Steve Jobs</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste fugit eius quaerat nesciunt, laudantium nihil. Vel dignissimos incidunt temporibus illo quasi minima cum quis, magnam vero consequuntur! Ratione, obcaecati magni.</p>
+              </div>
+            </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 d-block">
+                
+                  <img src="img/bill.jpg" alt="" class="card-img-top w-100 object-cover">
+                
+                <div class="card-body ">
+                  <a class="badge bg-warning text-black">JavaScript</a>
+                  <a class="badge bg-info">React</a>
+                  <h5 class="card-title">Bill Gates</h5>
+                  <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam quia voluptatem minus delectus quam impedit voluptatibus quo odit a, illum hic officia sapiente in itaque! Nihil quae deserunt officiis architecto!</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 d-block">
+                
+                  <img src="img/ada.jpeg" alt="" class="card-img-top w-100 object-cover">
+                
+                <div class="card-body">
+                  <a class="badge bg-secondary text-white">Negocios</a>
+                  <a class="badge bg-danger">Startups</a>
+                  <h5 class="card-title">Ada Lovelace</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam necessitatibus neque provident, aliquid omnis optio magni, modi ratione placeat, sapiente delectus sunt ab iure corrupti iusto laudantium iste dicta. Quo.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="info">
+        <div id="carouselExampleCaptions" class="carousel slide" style="width: 100%; height:450px">
+          <!-- <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div> -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+
+              <div class="card mt-4 " >
+                <div class="row g-0">
+                  <div class="col-md-6">
+                    <img src="img/ba1.jpg" class="img-fluid rounded-start h-100 carrusel" alt="...">
+                  </div>
+                  <div class="col-md-6 bg-dark text-white">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold">Bs As - Octubre</h5>
+                      <p class="card-text">Buenos Aires es la provincia y localidad más grande  del estado de Argentina, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estaudinenses. Aunque el nombre de Honolulu se refiere al área urbana de la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado un ciudad-condado consolidada que cubre toda la ciudad(proximadamente 600km² de superficie)</p>
+                      <button type="button" class="btn btn-outline-light mx-2">Conocé más</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="carousel-item">
+              
+              <div class="card mt-4 " >
+                <div class="row g-0">
+                  <div class="col-md-6">
+                    <img src="img/ba2.jpg" class="img-fluid rounded-start h-100 carrusel" alt="...">
+                  </div>
+                  <div class="col-md-6 bg-secondary text-white">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold">Bs As - Octubre</h5>
+                      <p class="card-text">Buenos Aires es la provincia y localidad más grande  del estado de Argentina, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estaudinenses. Aunque el nombre de Honolulu se refiere al área urbana de la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado un ciudad-condado consolidada que cubre toda la ciudad(proximadamente 600km² de superficie)</p>
+                      <button type="button" class="btn btn-outline-light mx-2">Conocé más</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="carousel-item ">
+              
+              <div class="card mt-4 " >
+                <div class="row g-0">
+                  <div class="col-md-6">
+                    <img src="img/ba3.jpg" class="img-fluid rounded-start h-100 carrusel" alt="...">
+                  </div>
+                  <div class="col-md-6 bg-secondary text-white">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold">Bs As - Octubre</h5>
+                      <p class="card-text">Buenos Aires es la provincia y localidad más grande  del estado de Argentina, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estaudinenses. Aunque el nombre de Honolulu se refiere al área urbana de la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado un ciudad-condado consolidada que cubre toda la ciudad(proximadamente 600km² de superficie)</p>
+                      <button type="button" class="btn btn-outline-light mx-2">Conocé más</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <section class="info">
+        <div>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo adipisci, molestiae ad, atque minus voluptate ex totam placeat beatae perspiciatis numquam odio quis quas deserunt nobis inventore porro cupiditate qui.
+        </div>
+      </section>
+      
+    </main>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
