@@ -43,12 +43,12 @@
     </header>
     <main>
       <section id="banner"">
-        <div class=" banner ">
-          <div class="banner overflow-hidden bg-black" style="width:100%; height:88vh; ">
+        <div class="banner bg-black" style="width:100%; height:88vh; ">
+          <div class="position-relative w-100  overflow-hidden">
             
-            <img class="card-img-top carrusel h-100 opacity-50" src="img/ba1.jpg" alt=""  >
+            <img class="card-img-top carrusel w-100 object-cover opacity-50" src="img/ba1.jpg" alt=""  >
 
-            <div class="p-5 col-xs-12  col-sm-11 col-md-8 col-lg-6 position-absolute bottom-0 end-0  text-end">
+            <div class="col-xs-12  col-sm-11 col-md-8 col-lg-6 text-info text-end">
               <h5 class=" fs-2 text-white fw-bold text-end">Conf Bs As</h5>
               <p class="text-light">
                 Bs llega por primera vez a Argentina, un evento para compartir con nuestra comunidad el conocimiento y la experiencia de los expertos que están creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!
@@ -72,10 +72,8 @@
         <div class="container justify-content-center">
           <div class=" row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
-              <div class="card h-100 d-block">
-                
-                  <img src="img/steve.jpg" alt="" class="card-img-top w-100  object-cover">
-                
+              <div class="card h-100">
+                <img src="img/steve.jpg" alt="" class="card-img-top h-100  object-cover">
                 <div class="card-body ">
                   <a class="badge bg-warning text-black">JavaScript</a>
                   <a class="badge bg-info">React</a>
@@ -85,9 +83,9 @@
             </div>
             </div>
             <div class="col">
-              <div class="card h-100 d-block">
+              <div class="card h-100">
                 
-                  <img src="img/bill.jpg" alt="" class="card-img-top w-100 object-cover">
+                <img src="img/bill.jpg" alt="" class="card-img-top w-100 object-cover">
                 
                 <div class="card-body ">
                   <a class="badge bg-warning text-black">JavaScript</a>
@@ -98,9 +96,9 @@
               </div>
             </div>
             <div class="col">
-              <div class="card h-100 d-block">
+              <div class="card h-100">
                 
-                  <img src="img/ada.jpeg" alt="" class="card-img-top w-100 object-cover">
+                <img src="img/ada.jpeg" alt="" class="card-img-top w-100 object-cover">
                 
                 <div class="card-body">
                   <a class="badge bg-secondary text-white">Negocios</a>
@@ -114,7 +112,7 @@
         </div>
       </section>
       <section class="info">
-        <div id="carouselExampleCaptions" class="carousel slide" style="width: 100%; height:450px">
+        <div id="carouselExampleCaptions" class="carousel slide" style="width: 100%;">
           <!-- <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -123,7 +121,7 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
 
-              <div class="card mt-4 " >
+              <div class="card mt-4 " style="max-width:100" >
                 <div class="row g-0">
                   <div class="col-md-6">
                     <img src="img/ba1.jpg" class="img-fluid rounded-start h-100 carrusel" alt="...">
@@ -146,7 +144,7 @@
                   <div class="col-md-6">
                     <img src="img/ba2.jpg" class="img-fluid rounded-start h-100 carrusel" alt="...">
                   </div>
-                  <div class="col-md-6 bg-secondary text-white">
+                  <div class="col-md-6 bg-dark text-white">
                     <div class="card-body">
                       <h5 class="card-title fw-bold">Bs As - Octubre</h5>
                       <p class="card-text">Buenos Aires es la provincia y localidad más grande  del estado de Argentina, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estaudinenses. Aunque el nombre de Honolulu se refiere al área urbana de la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado un ciudad-condado consolidada que cubre toda la ciudad(proximadamente 600km² de superficie)</p>
@@ -162,9 +160,9 @@
               <div class="card mt-4 " >
                 <div class="row g-0">
                   <div class="col-md-6">
-                    <img src="img/ba3.jpg" class="img-fluid rounded-start h-100 carrusel" alt="...">
+                    <img src="img/ba3.jpg" class="img-fluid rounded-start h-100 w-100 carrusel" alt="...">
                   </div>
-                  <div class="col-md-6 bg-secondary text-white">
+                  <div class="col-md-6 bg-dark text-white">
                     <div class="card-body">
                       <h5 class="card-title fw-bold">Bs As - Octubre</h5>
                       <p class="card-text">Buenos Aires es la provincia y localidad más grande  del estado de Argentina, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estaudinenses. Aunque el nombre de Honolulu se refiere al área urbana de la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado un ciudad-condado consolidada que cubre toda la ciudad(proximadamente 600km² de superficie)</p>
@@ -186,11 +184,46 @@
           </button>
         </div>
       </section>
-      <section class="info">
-        <div>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo adipisci, molestiae ad, atque minus voluptate ex totam placeat beatae perspiciatis numquam odio quis quas deserunt nobis inventore porro cupiditate qui.
+      <section id="info" class=" mb-5 justify-content-center">
+        <div class="d-flex flex-column align-items-center my-4">
+          <h6 class="fw-lighter">CONVIERTE EN UN</h6>
+          <H2 class="fw-bolder fs-1">ORADOR</H2>
         </div>
+        <form class="container">
+          <div class=" d-flex  justify-content-center" ">
+            <div class=" d-flex flex-column col-md-8" >
+              <p class="text-center fw-lighter">
+                Anótate como orador para dar una <span style="border-bottom-style:dotted; cursor:pointer;">charla ignite</span>. Cuéntanos de qué quieres hablar!
+              </p>
+              <div class="d-flex">
+                <input class="form-control mb-4 me-3 border border-secondary-subtle" type="text" placeholder="Nombre" aria-label=".form-control-lg example">
+                <input class="form-control mb-4 border border-secondary-subtle" type="text" placeholder="Apellido" aria-label="default input example">
+              </div>
+              <div class="mb-3">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Sobre que quieres hablar?"></textarea>
+                <label for="exampleFormControlTextarea1" class="form-label text-black-50">Recuerda incluir un titulo para tu charla</label>
+              </div>
+              <button type="button" class="btn btn-success">Enviar</button>
+            </div>
+          </div>
+        </form>
       </section>
+      <footer class="d-flex mt-5  footer-fondo">
+        <div class="container-fluid py-3 text-light shadow text-white col-md-11">
+            <nav class="link-footer d-flex 
+             fw-bold text-center justify-content-around">
+              <a href="#">preguntas frecuentes</a>
+              <a href="#">Contáctanos</a>
+              <a href="#">Prensa</a>
+              <a href="#">Conferencias</a>
+              <a href="#">Términos y condiciones</a>
+              <a href="#">Privacidad</a>
+              <!-- <div>Abierto de 11 a 13hs</div>
+              <div>Av. Siempre viva 123</div> -->
+              <a href="#">Estudiantes</a>
+            </nav>
+        </div>
+      </footer>
       
     </main>
 
