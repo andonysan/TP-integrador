@@ -43,7 +43,7 @@
     </header>
     <main class="m-3">
         <section class="Descuento ">
-            <div class="card-group container  col-7 ">
+            <div class="card-group container col-10 col-sm-11 col-md-8 col-lg-7 col-xl-6 ">
                 <div class="card m-1">
                   <!-- <img src="..." class="card-img-top" alt="..."> -->
                   <div class="card-body border border-primary text-center">
@@ -81,18 +81,22 @@
             </div>
         </section>
         <section>
-            <form name="formulario" class="container col-7 my-2">
-                <div class="input-group gap-3">
-                    <input id="firsName" name="firsName" type="text" class="form-control" placeholder="Nombre">
-                    <input id="lastName" name="lastName" type="text" class="form-control" placeholder="Apellido">
+            <div class="container col-10 col-sm-11 col-md-8 col-lg-7 col-xl-6  my-2">
+                <div class="row my-2">
+                    <div class="col-12 col-sm-6 my-2">
+                      <input id="firsName" name="firsName" type="text" class="form-control " placeholder="Nombre">
+                    </div>
+                    <div class="col-12 col-sm-6 my-2">
+                      <input id="lastName" name="lastName" type="text" class="form-control " placeholder="Apellido">
+                    </div>
                 </div>
                 <input id="mail" name="mail" type="text" class="form-control my-3" placeholder="Correo">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-12 col-sm-6">
                         <label for="quantity">Cantidad</label>
                         <input id="quantity" name="quantity" type="number" class="form-control" placeholder="Cantidad">
                     </div>
-                    <div class="col-6">
+                    <div class="col-12 col-sm-6">
                         <label for="category">Categoria</label>
                         <select id="category" name="category" class="form-select" aria-label="Default select example">
                             <option selected="" value="none">Selecciona la categoria</option>
@@ -109,16 +113,8 @@
                   <button id="reset" class="btn btn-success col-5">Borrar</button>
                   <button id="submit"  class="btn btn-success col-5">Resumen</button>
                 </div>
-                <!-- <div class="row">
-                  <div class="col-6">
-                      <button id="reset" class="btn btn-success w-100">Resetear</button>
-                  </div>
-                  <div class="col-6">
-                      <button id="submit" onclick="precioTotal();" class="btn btn-success w-100">Enviar</button>
-                  </div>
-                </div> -->
 
-              </form>
+              </div>
         </section>
     </main>
     <footer class=" w-100 mt-5  footer-fondo">

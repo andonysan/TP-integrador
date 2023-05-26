@@ -22,7 +22,7 @@ function resumen(e){
         totalPago.innerText = precioFinal - descuentoF;
 
     }else{ 
-        totalPago.innerText = precioTicket*cant;
+        totalPago.innerText = precioTicket*cant > 0? precioTicket*cant : 0;
     }
     return null;
 }
